@@ -15,3 +15,10 @@ print(type(age))
 print(type(height))
 print(type(game_over))
 print(type(my_list))
+
+"""
+вариант преподавателя
+lst_1 = [5, "string", 0.15, True, None]
+for ei in lst_1:
+    print(type(el))
+"""

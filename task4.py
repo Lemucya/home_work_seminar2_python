@@ -14,3 +14,18 @@ for element in range(my_string.count(' ') + 1):
     else:
         print(f" {number} {my_word[element][0:10]}")
         number += 1
+
+"""
+вариант преподавателя:
+my_lst = input("Введите слова через пробел: ").split()
+n = 1
+for elem in my_lst:
+    if len(elem) > 10:
+        print(f"{n}. {elem}")
+    n += 1
+    
+print()
+
+for i, el in enumerate(my_lst, 1):
+    print(f'{i}. {el[:10]}')
+"""

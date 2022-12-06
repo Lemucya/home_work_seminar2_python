@@ -17,3 +17,16 @@ for elem in range(int(len(my_list) / 2)):
         element]
     element += 2
 print(my_list)
+
+"""
+вариант преподавателя:
+my_lst = input("Введите целые числа через пробел:").split(' ')
+i, j = 0, 1
+while len(my_lst) > j:
+    my_lst[i], my_lst[j] = my_lst[j], my_lst[i]
+    i += 2
+    j += 2
+# Строка print(*my_lst) передает все элементы списка my_lst в вызов print() как
+# отдельные аргументы
+print('Результат:', *my_lst)
+"""
